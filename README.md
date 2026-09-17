@@ -25,8 +25,17 @@
 - **11 · 坑清单** —— 只收前 10 节没讲过的 24 条：云开发 4 / 后台权限 3 / 数据状态 6 / 画布图像 6 / 工具链 5 → [`docs/11-坑清单.md`](docs/11-坑清单.md) `[待你确认]`
 - **12 · 如果重来一次** —— 最短路径表、AI 值不值的账 → [`docs/12-如果重来一次.md`](docs/12-如果重来一次.md) `[待你确认]`
 
-### 待补
-- `templates/`（协作模板）与 `tools/`（三个校验工具）将在你验收完正文后重建上架
+## 配套模板与工具
+
+| 东西 | 位置 | 干嘛用的 |
+|---|---|---|
+| 协作模板 | [`templates/AI-COORDINATION.md`](templates/AI-COORDINATION.md) | 多个 AI 一起干活时的"地盘划分表 + 公告板"（第 7 节） |
+| 项目约定模板 | [`templates/AGENTS.md`](templates/AGENTS.md) | 告诉 AI"项目是什么、规矩是什么、什么不能碰" |
+| 页面校验工具 | [`tools/verify-miniprogram.cjs`](tools/verify-miniprogram.cjs) | 查"按钮绑的函数存不存在"——绑错不报错，只是点了没反应（第 8 节） |
+| 文案检查工具 | [`tools/check-copy-discipline.cjs`](tools/check-copy-discipline.cjs) | 批量扫文案：哪条写了术语、哪条编了数字，逐条列出（第 6 节） |
+| 云函数限流模块 | [`tools/cloudfunction-ratelimit.js`](tools/cloudfunction-ratelimit.js) | 防脚本刷接口的计数器，零依赖（第 6 节） |
+
+三个工具都是零依赖的 Node 脚本，改个路径就能跑，不需要装任何包。
 
 ## 素材库说明
 
