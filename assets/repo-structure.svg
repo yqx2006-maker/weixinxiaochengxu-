@@ -10,12 +10,12 @@
   <rect x="32" y="110" width="258" height="5" rx="2.5" fill="#2563EB"/>
   <text x="50" y="162" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','PingFang SC',sans-serif" font-size="32" font-weight="800" fill="#2563EB" opacity="0.25">01</text>
   <text x="50" y="192" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','PingFang SC',sans-serif" font-size="16.5" font-weight="700" fill="#111827">从零到跑通</text>
-  <text x="50" y="214" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','PingFang SC',sans-serif" font-size="11.5" fill="#6B7280">5 篇 · 技术选型到部署</text>
+  <text x="50" y="214" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','PingFang SC',sans-serif" font-size="11.5" fill="#6B7280">6 篇 · 技术选型到上线</text>
   <line x1="50" y1="228" x2="272" y2="228" stroke="#E5E7EB"/>
   <text x="50" y="250" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','PingFang SC',sans-serif" font-size="11.5" fill="#374151">· 技术选型与取舍</text>
   <text x="50" y="272" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','PingFang SC',sans-serif" font-size="11.5" fill="#374151">· 五天节奏拆解</text>
   <text x="50" y="294" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','PingFang SC',sans-serif" font-size="11.5" fill="#374151">· AI 链路接入</text>
-  <text x="50" y="316" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','PingFang SC',sans-serif" font-size="11.5" fill="#374151">· 云开发与部署</text>
+  <text x="50" y="316" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','PingFang SC',sans-serif" font-size="11.5" fill="#374151">· 云开发 · 从注册到上线</text>
 
   <!-- 第二册 -->
   <rect x="311" y="110" width="258" height="220" rx="10" fill="#FAFAFA" stroke="#E5E7EB"/>
