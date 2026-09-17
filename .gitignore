@@ -1,0 +1,33 @@
+# 依赖
+node_modules/
+venv/
+.venv/
+
+# 密钥与本地配置（永远不要提交）
+.env
+.env.local
+.env.*.local
+*.key
+*.pem
+project.private.config.json
+templates/.env.example
+
+# 构建与临时产物
+dist/
+build/
+*.log
+.tmp-*/
+tmp/
+temp/
+
+# 编辑器 / 系统
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+
+# 工具运行产物
+.js-check-*/
+_*.txt
+_*.py

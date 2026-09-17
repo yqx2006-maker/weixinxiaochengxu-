@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 470" width="880" height="470" role="img" aria-label="多 AI 所有权划分与协作通道示意图">
+  <rect x="0" y="0" width="880" height="470" rx="12" fill="#FFFFFF" stroke="#E5E7EB"/>
+
+  <text x="32" y="44" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','PingFang SC','Microsoft YaHei',sans-serif" font-size="18" font-weight="700" fill="#111827">两个 AI 为什么不打架</text>
+  <text x="32" y="68" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','PingFang SC','Microsoft YaHei',sans-serif" font-size="12.5" fill="#6B7280">协调状态外化成文件，而不是留在各自的上下文里 —— 每个 AI 会话都是独立上下文</text>
+  <line x1="32" y1="86" x2="848" y2="86" stroke="#E5E7EB"/>
+
+  <!-- 人 -->
+  <rect x="280" y="104" width="320" height="50" rx="25" fill="#FEF2F2" stroke="#E86A56" stroke-width="1.5"/>
+  <text x="440" y="134" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','PingFang SC',sans-serif" font-size="13" font-weight="600" fill="#9A3412">人 · 需求拍板 / 真机实测 / 冲突裁决</text>
+
+  <!-- 连线 -->
+  <path d="M 440 154 L 440 176 L 195 176 L 195 200" fill="none" stroke="#D1D5DB" stroke-width="1.5"/>
+  <path d="M 440 154 L 440 176 L 685 176 L 685 200" fill="none" stroke="#D1D5DB" stroke-width="1.5"/>
+  <polygon points="189,192 201,192 195,202" fill="#D1D5DB"/>
+  <polygon points="679,192 691,192 685,202" fill="#D1D5DB"/>
+
+  <!-- 助手 A -->
+  <rect x="45" y="202" width="300" height="186" rx="10" fill="#F8FAFC" stroke="#CBD5E1"/>
+  <text x="67" y="234" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','PingFang SC',sans-serif" font-size="15" font-weight="700" fill="#0F172A">助手 A · 逻辑层</text>
+  <line x1="67" y1="246" x2="323" y2="246" stroke="#E2E8F0"/>
+  <text x="67" y="270" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','PingFang SC',sans-serif" font-size="11.5" fill="#334155">· 数据服务 / AI 链路</text>
+  <text x="67" y="292" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','PingFang SC',sans-serif" font-size="11.5" fill="#334155">· 云函数</text>
+  <text x="67" y="314" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','PingFang SC',sans-serif" font-size="11.5" fill="#334155">· 类型定义 / 工程配置</text>
+  <text x="67" y="336" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','PingFang SC',sans-serif" font-size="11.5" fill="#334155">· 页面数据流与事件逻辑</text>
+  <text x="67" y="368" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','PingFang SC',sans-serif" font-size="10.5" fill="#64748B">强耦合页面：A 先搭骨架，期间独占该页脚本</text>
+
+  <!-- 消息区 -->
+  <rect x="375" y="202" width="130" height="186" rx="10" fill="#EFF6FF" stroke="#93C5FD"/>
+  <text x="440" y="252" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','PingFang SC',sans-serif" font-size="13" font-weight="700" fill="#1E40AF">消息区</text>
+  <text x="440" y="276" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','PingFang SC',sans-serif" font-size="10.5" fill="#1E40AF">只追加</text>
+  <text x="440" y="294" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','PingFang SC',sans-serif" font-size="10.5" fill="#1E40AF">不修改</text>
+  <line x1="397" y1="310" x2="483" y2="310" stroke="#BFDBFE"/>
+  <text x="440" y="332" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','PingFang SC',sans-serif" font-size="10" fill="#3B82F6">认领 / 完成</text>
+  <text x="440" y="350" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','PingFang SC',sans-serif" font-size="10" fill="#3B82F6">撞车预警</text>
+  <text x="440" y="368" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','PingFang SC',sans-serif" font-size="10" fill="#3B82F6">裁决请求</text>
+
+  <!-- 助手 B -->
+  <rect x="535" y="202" width="300" height="186" rx="10" fill="#F8FAFC" stroke="#CBD5E1"/>
+  <text x="557" y="234" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','PingFang SC',sans-serif" font-size="15" font-weight="700" fill="#0F172A">助手 B · 表现层</text>
+  <line x1="557" y1="246" x2="813" y2="246" stroke="#E2E8F0"/>
+  <text x="557" y="270" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','PingFang SC',sans-serif" font-size="11.5" fill="#334155">· 页面结构与样式</text>
+  <text x="557" y="292" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','PingFang SC',sans-serif" font-size="11.5" fill="#334155">· 视觉资源</text>
+  <text x="557" y="314" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','PingFang SC',sans-serif" font-size="11.5" fill="#334155">· 交互细节</text>
+  <text x="557" y="336" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','PingFang SC',sans-serif" font-size="11.5" fill="#94A3B8">· 不自行修改脚本文件</text>
+  <text x="557" y="368" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','PingFang SC',sans-serif" font-size="10.5" fill="#64748B">缺字段时走消息区 @A 提需求</text>
+
+  <!-- 共享文件 -->
+  <rect x="45" y="410" width="790" height="46" rx="8" fill="#FFFBEB" stroke="#FCD34D"/>
+  <text x="440" y="438" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','PingFang SC',sans-serif" font-size="11.5" fill="#92400E">共享文件（应用配置 / 全局类型）由一方独占 —— 另一方需要时走消息区提需求，由 owner 统一落笔后广播</text>
+</svg>
